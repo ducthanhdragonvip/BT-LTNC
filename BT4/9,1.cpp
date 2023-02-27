@@ -11,7 +11,7 @@ int main() {
     for(int i=0;i<n;i++)
     {
         int x,y;
-        cin>>x>>y;
+       	cin>>x>>y;
         a[x][y]=1;
     }
     for(int i=0;(i<n)&& !stop;i++ )
